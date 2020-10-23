@@ -1,0 +1,142 @@
+:root {
+  --dark-bg: #2f303a;
+  --blue: #2196f3;
+  --black: #000000;
+  --light-black: #212121;
+  --white: #ffffff;
+  --grey: #757575;
+  --transparentwhite: rgba(255, 255, 255, 0.6);
+}
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--grey);
+}
+address {
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo .web {
+  color: var(--blue);
+}
+.logo .stud {
+  color: var(--black);
+}
+.nav > li > a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--light-black);
+}
+.nav .studio {
+  color: var(--blue);
+}
+.nav > li > a:focus,
+.nav > li > a:hover {
+  color: var(--blue);
+}
+.addr > a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--grey);
+}
+.addr > a:focus,
+.addr > a:hover {
+  color: var(--blue);
+}
+.hero {
+  background-color: var(--dark-bg);
+}
+.hero > h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white);
+}
+.hero > button {
+  background-color: var(--blue);
+  color: var(--white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.characteristics > ul > li > h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--light-black);
+}
+.work > h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--light-black);
+}
+.team > h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--light-black);
+}
+.team .name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--light-black);
+}
+.team .prof {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.footer {
+  background-color: var(--dark-bg);
+}
+.footer .logo .stud {
+  color: var(--white);
+}
+.contacts p {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white);
+}
+.contacts a {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--transparentwhite);
+}

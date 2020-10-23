@@ -1,0 +1,109 @@
+:root {
+  --dark-bg: #2f303a;
+  --blue: #2196f3;
+  --black: #000000;
+  --light-black: #212121;
+  --white: #ffffff;
+  --grey: #757575;
+  --lightgrey: #f5f4fa;
+  --transparentwhite: rgba(255, 255, 255, 0.6);
+}
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--grey);
+}
+address {
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo .web {
+  color: var(--blue);
+}
+.logo .stud {
+  color: var(--black);
+}
+.nav > li > a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--light-black);
+}
+.nav .portfolio {
+  color: var(--blue);
+}
+.nav > li > a:focus,
+.nav > li > a:hover {
+  color: var(--blue);
+}
+.addr > a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--grey);
+}
+.addr > a:focus,
+.addr > a:hover {
+  color: var(--blue);
+}
+.filter > ul > li > button {
+  background-color: var(--lightgrey);
+  color: var(--light-black);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.filter > ul > li > button:focus,
+.filter > ul > li > button:hover {
+  background-color: var(--blue);
+  color: var(--white);
+}
+.filter .all-menu {
+  background-color: var(--blue);
+  color: var(--white);
+}
+.footer {
+  background-color: var(--dark-bg);
+}
+.footer .logo .stud {
+  color: var(--white);
+}
+.contacts p {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white);
+}
+.contacts a {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--transparentwhite);
+}
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--light-black);
+}
