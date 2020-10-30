@@ -33,23 +33,36 @@ address {
 a {
   text-decoration: none;
 }
+h1,
+h2,
+h3 {
+  padding: 0;
+  margin: 0;
+}
 .list {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 .container {
-  width: 1600px;
-  padding-left: 215px;
-  padding-right: 215px;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
 .header {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: flex-start;
   padding-top: 24px;
   padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
+}
+.header-div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 .logo {
   font-family: Raleway, sans-serif;
@@ -64,9 +77,9 @@ a {
 .logo .stud {
   color: var(--black);
 }
-.nav-logo {
+.nav-logo-list {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: center;
 }
 .nav-list {
@@ -113,7 +126,7 @@ a {
 .addr-indent:last-child {
   margin-right: 0;
 }
-.filter > ul > li > button {
+.filter .filter-btn {
   background-color: var(--lightgrey);
   color: var(--light-black);
   font-weight: 500;
@@ -122,8 +135,8 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.filter > ul > li > button:focus,
-.filter > ul > li > button:hover {
+.filter .filter-btn:focus,
+.filter .filter-btn:hover {
   background-color: var(--blue);
   color: var(--white);
 }
@@ -132,13 +145,16 @@ a {
   color: var(--white);
 }
 .filter {
-  margin-top: 100px;
+  padding-top: 100px;
+  padding-bottom: 56px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .filter-list {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .filter-item {
   margin-right: 8px;
@@ -169,7 +185,6 @@ a {
 .footer {
   margin-top: 64px;
   padding-top: 60px;
-  padding-left: 215px;
   padding-bottom: 60px;
   background-color: var(--dark-bg);
 }
